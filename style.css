@@ -31,12 +31,25 @@ body {
     padding: 8em;
     margin: 8em auto;
     border-radius: 9px;
-    max-width: 6000px;
+    max-width: 1000px;
     text-align: center;
     color: white;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   }
   
+  .about-blur-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 8em;
+    margin: 8em auto;
+    border-radius: 9px;
+    max-width: 1000px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3); 
+  }
+
   .impact-btn {
     display: inline-block;
     margin-top: 1em;
