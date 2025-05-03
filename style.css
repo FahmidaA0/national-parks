@@ -1,18 +1,21 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #f5f5f5;
+    background-image: url('assets/Leaf.jpg');
+    background-size: 100%;
   }
   
   header {
-    background: #1d3557;
+    backdrop-filter: blur(2px);
     color: white;
     padding: 16px;
-    text-align: center;
+    text-align:center;
+    font-size:x-large;
+    font-family: 'Garet', Times, serif;
   }
   
   nav a {
-    margin: 0 16px;
+    margin: 0 100px;
     color: white;
     text-decoration: none;
   }
@@ -20,8 +23,39 @@ body {
   main {
     padding: 32px;
   }
+
+  .blur-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 8em;
+    margin: 8em auto;
+    border-radius: 9px;
+    max-width: 6000px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  
+  .impact-btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 1.5em;
+    background-color: #1d3557;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .impact-btn:hover {
+    background-color: #457b9d;
+  }
+  
   
   #map-container {
+    background-color: white;
     width: 100%;
     height: 400px;
     margin-top: 16px;
@@ -30,10 +64,10 @@ body {
   }
   
   footer {
-    background: #1d3557;
+    background: #105b01;
     color: white;
     text-align: center;
-    padding: 16px;
-    margin-top: 32px;
+    padding: 1px;
+    margin-top: 100px;
   }
   

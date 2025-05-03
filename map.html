@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Planet Over Profit</title>
+  <title>Map – Planet Over Profit</title>
   <link href="style.css" rel="stylesheet" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
 </head>
 <body>
   <header>
+    <h1>Defunded Parks Map</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="map.html">Map</a>
       <a href="volunteer.html">Volunteer</a>
-      
     </nav>
   </header>
 
   <main>
-    <div class="blur-box">
-      <h2>Planet Over Profit</h2>
-      <p>Because public parks shouldn’t pay the price for private gain.</p>
-      <a href="map.html" class="impact-btn">Click Here to Make an Impact</a>
-    </div>
+    <section id="map">
+      <div id="map-container"></div>
+    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Planet Over Profit</p>
   </footer>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

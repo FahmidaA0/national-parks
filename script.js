@@ -1,4 +1,4 @@
-//mapboxgl.accessToken = 'MAPBOX TOKEN HERE';
+mapboxgl.accessToken = 'MAPBOX TOKEN HERE';
 
 const map = new mapboxgl.Map({
   container: 'map-container',
