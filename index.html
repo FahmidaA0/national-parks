@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planet Over Profit</title>
+  <link href="style.css" rel="stylesheet" />
+
+  <!-- Mapbox CSS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Planet Over Profit</h1>
+    <nav>
+      <a href="#map">Map</a>
+      <a href="#volunteer">Volunteer</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Defunded Parks in NYC</h2>
+      <p>Explore how defunding has impacted NYC’s public spaces.</p>
+    </section>
+
+    <section id="map">
+      <h2>Interactive Map</h2>
+      <div id="map-container"></div>
+    </section>
+
+    <section id="volunteer">
+      <h2>Get Involved</h2>
+      <p>Join local clean-up efforts and support public Parks.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Planet Over Profit</p>
+  </footer>
+
+  <!-- Mapbox JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
