@@ -18,6 +18,13 @@ body.about-page{
     background-size: 100%;
 }
 
+body.vol-page{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('assets/leaf-background.jpg');
+  background-size: 100%;
+}
+
   header {
     backdrop-filter: blur(2px);
     color: white;
@@ -237,13 +244,11 @@ body.about-page{
   .comparison-table tr:nth-child(even) {
     background: #f8f9fa;
   }
-  
+
   .volunteer1 {
     max-width: 30%;
     border-radius: 15%;
     border: 3px solid darkgreen;
-    /* margin-top: 1em;
-    margin-bottom: 1em; */
     float: left; 
     margin-right: 15px;
    }
