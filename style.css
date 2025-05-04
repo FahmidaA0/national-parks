@@ -84,3 +84,28 @@ body {
     margin-top: 100px;
   }
   
+  .volunteer {
+   max-width: 30%;
+   border-radius: 15%;
+   border: 3px solid darkgreen;
+   /* margin-top: 1em;
+   margin-bottom: 1em; */
+   float: left; 
+   margin-right: 15px;
+  }
+
+  .sam-story {
+    display: inline-block;
+    /* margin-top: 1em; */
+    padding: 0.75em 1.5em;
+    background-color: #1d3557;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .sam-story:hover{
+    background-color: #457b9d;
+  }
