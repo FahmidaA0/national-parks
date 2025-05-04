@@ -1,0 +1,790 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Central Park",
+        "borough": "Manhattan",
+        "address": "New York, NY 10024",
+        "maintenance_funding": "$446,300",
+        "private_funding": "$24,717,743",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.968285, 40.785091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Riverside Park",
+        "borough": "Manhattan",
+        "address": "Riverside Dr, New York, NY 10025",
+        "maintenance_funding": "$724,119",
+        "private_funding": "$1,370,333",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.96865959357001, 40.806879699999996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Washington Square Park",
+        "borough": "Manhattan",
+        "address": "Washington Square, New York, NY 10012",
+        "maintenance_funding": "$222,443",
+        "private_funding": "$461,502",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99760019608271, 40.7308955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Tompkins Square Park",
+        "borough": "Manhattan",
+        "address": "E 10th St, New York, NY 10009",
+        "maintenance_funding": "$54,270",
+        "private_funding": "$5,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.98168426021617, 40.72648575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Marcus Garvey Park",
+        "borough": "Manhattan",
+        "address": "Madison Ave & E 120th St, New York, NY 10027",
+        "maintenance_funding": "$215,096",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.94366897999979, 40.8044856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Bronx Park",
+        "borough": "Bronx",
+        "address": "Bronx, NY 10467",
+        "maintenance_funding": "$353,815",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.87590377196466, 40.8588468]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Brust Park",
+        "borough": "Bronx",
+        "address": "Bronx, NY 10471",
+        "maintenance_funding": "$6,365",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.90411085650919, 40.88992915]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Crotona Park",
+        "borough": "Bronx",
+        "address": "Park in the Bronx, New York",
+        "maintenance_funding": "$538,642",
+        "private_funding": "$3,000",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.89239847631723, 40.83881315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Ferry Point Park",
+        "borough": "Bronx",
+        "address": "10 Hutchinson River Pkwy, Bronx, NY 10465",
+        "maintenance_funding": "$91,794",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.83752804409505, 40.81081355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Franz Sigel Park",
+        "borough": "Bronx",
+        "address": "Walton Ave & Gerard Ave, 158th St, Bronx, NY 10451",
+        "maintenance_funding": "$74,364",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9256404817331, 40.8230809]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Ewen Park",
+        "borough": "Bronx",
+        "address": "Riverdale Ave. &, W 232nd St, Bronx, NY 10463",
+        "maintenance_funding": "$21,135",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.909929505039, 40.882169149999996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Pelham Bay Park",
+        "borough": "Bronx",
+        "address": "Middletown Road & Stadium, Avenue, Bronx, NY 10465",
+        "maintenance_funding": "$722,513",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.8117925755334, 40.871355550000004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Soundview Park",
+        "borough": "Bronx",
+        "address": "Soundview Park, Bronx, NY 10473",
+        "maintenance_funding": "$88,617",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.87110608912408, 40.8153759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "St. Mary's Park",
+        "borough": "Bronx",
+        "address": "450 St Ann's Ave, Bronx, NY 10455",
+        "maintenance_funding": "$110,849",
+        "private_funding": "$3,500",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.912399639876, 40.81157845]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Van Cortlandt Park",
+        "borough": "Bronx",
+        "address": "Broadway and Van, Cortlandt Park South, Bronx, NY 10471",
+        "maintenance_funding": "$549,162",
+        "private_funding": "$116,477",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.8865797057321, 40.8970755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Prospect Park",
+        "borough": "Brooklyn",
+        "address": "Brooklyn, NY",
+        "maintenance_funding": "$1,173,653",
+        "private_funding": "$1,942,874",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.97108902901994, 40.661774300000005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Brooklyn Bridge Park",
+        "borough": "Brooklyn",
+        "address": "Brooklyn, NY 11201",
+        "maintenance_funding": "$13,008",
+        "private_funding": "$1,482,623",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99992969881788, 40.69828875]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Brower Park",
+        "borough": "Brooklyn",
+        "address": "Brooklyn Ave &, Prospect Pl, Brooklyn, NY 11213",
+        "maintenance_funding": "$69,883",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.94370738739572, 40.6739108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Owl's head park",
+        "borough": "Brooklyn",
+        "address": "Colonial Road & 68 St &, Shore Rd, Brooklyn, NY 11220",
+        "maintenance_funding": "$123,889",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.03284339893688, 40.6398992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "McCarren Park",
+        "borough": "Brooklyn",
+        "address": "776 Lorimer St, Brooklyn, NY 11222",
+        "maintenance_funding": "$492,753",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.95287927944955, 40.7211592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Sunset Park",
+        "borough": "Brooklyn",
+        "address": "7th Avenue &, 43rd St, Brooklyn, NY 11232",
+        "maintenance_funding": "$123,099",
+        "private_funding": "$1,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0075907, 40.6442221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Flushing Meadows–Corona Park",
+        "borough": "Queens",
+        "address": "Grand Central Pkwy & Van Wyck Expy, Queens, NY 11368",
+        "maintenance_funding": "$2,111,504",
+        "private_funding": "$595,902",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.84278900425835, 40.740548450000006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Astoria Park",
+        "borough": "Queens",
+        "address": "19th St, Astoria, NY 11105",
+        "maintenance_funding": "$201,780",
+        "private_funding": "$3,300",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.92265804019786, 40.7788277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Forest Park",
+        "borough": "Queens",
+        "address": "Myrtle Ave, Queens, NY 11421",
+        "maintenance_funding": "$1,112,711",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.84612164925073, 40.703232299999996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Sunnyside Gardens Park",
+        "borough": "Queens",
+        "address": "48-21 39th Ave, Sunnyside, NY 11104",
+        "maintenance_funding": "$0",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.91454248733606, 40.7496548]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Cunningham Park",
+        "borough": "Queens",
+        "address": "196-00 Union Tpke, Fresh Meadows, NY 11366",
+        "maintenance_funding": "$159,811",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.76794368041217, 40.735197299999996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Clove Lakes Park",
+        "borough": "Staten Island",
+        "address": "1150 Clove Rd, Staten Island, NY 10301",
+        "maintenance_funding": "$231,845",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.11275476315481, 40.61870759999999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Silver Lake Park",
+        "borough": "Staten Island",
+        "address": "1017 Victory Blvd, Staten Island, NY 10301",
+        "maintenance_funding": "$170,185",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0948411707627, 40.627011350000004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Conference House Park",
+        "borough": "Staten Island",
+        "address": "298 Satterlee St, Staten Island, NY 10307",
+        "maintenance_funding": "$92,235",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.25183021909451, 40.5015451]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Snug Harbor Cultural Center & Botanical Garden",
+        "borough": "Staten Island",
+        "address": "1000 Richmond Terrace, Staten Island, NY 10301",
+        "maintenance_funding": "$5,973",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.10319480000197, 40.6424825]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Great Kills Park",
+        "borough": "Staten Island",
+        "address": "Hylan Blvd, Staten Island, NY 10308",
+        "maintenance_funding": "$113,359",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.12614690812788, 40.5436508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Battery Park",
+        "borough": "Manhattan",
+        "address": "Battery Pl, New York, NY 10004",
+        "maintenance_funding": "$587,420",
+        "private_funding": "$3,250,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.015848, 40.703266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Highbridge Park",
+        "borough": "Manhattan",
+        "address": "Amsterdam Ave, New York, NY 10033",
+        "maintenance_funding": "$189,205",
+        "private_funding": "$12,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.932159, 40.839542]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Fort Tryon Park",
+        "borough": "Manhattan",
+        "address": "Riverside Dr to Broadway, New York, NY 10040",
+        "maintenance_funding": "$412,780",
+        "private_funding": "$875,200",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.932843, 40.864745]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Union Square Park",
+        "borough": "Manhattan",
+        "address": "E 14th St to E 17th St, New York, NY 10003",
+        "maintenance_funding": "$680,900",
+        "private_funding": "$2,150,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.990308, 40.735863]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Bryant Park",
+        "borough": "Manhattan",
+        "address": "Between 40th and 42nd Streets, New York, NY 10018",
+        "maintenance_funding": "$1,250,000",
+        "private_funding": "$8,900,000",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.983162, 40.753597]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Hudson River Park",
+        "borough": "Manhattan",
+        "address": "Hudson River Greenway, New York, NY",
+        "maintenance_funding": "$3,450,000",
+        "private_funding": "$15,200,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.009941, 40.742142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Inwood Hill Park",
+        "borough": "Manhattan",
+        "address": "Payson Ave & Seaman Ave, New York, NY 10034",
+        "maintenance_funding": "$98,760",
+        "private_funding": "$5,500",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.921583, 40.867747]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Madison Square Park",
+        "borough": "Manhattan",
+        "address": "11 Madison Ave, New York, NY 10010",
+        "maintenance_funding": "$1,875,000",
+        "private_funding": "$6,250,000",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.988242, 40.7416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "East River Park",
+        "borough": "Manhattan",
+        "address": "FDR Dr, New York, NY 10009",
+        "maintenance_funding": "$345,210",
+        "private_funding": "$45,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.974187, 40.715148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Randall's Island Park",
+        "borough": "Manhattan",
+        "address": "Randall's Island, New York, NY 10035",
+        "maintenance_funding": "$2,150,000",
+        "private_funding": "$3,750,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.926192, 40.793229]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Gantry Plaza State Park",
+        "borough": "Queens",
+        "address": "4-09 47th Rd, Long Island City, NY 11101",
+        "maintenance_funding": "$875,400",
+        "private_funding": "$1,250,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.959244, 40.743954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Alley Pond Park",
+        "borough": "Queens",
+        "address": "Between Douglaston Parkway and Springfield Boulevard, Queens, NY",
+        "maintenance_funding": "$287,650",
+        "private_funding": "$12,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.744587, 40.755219]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Kissena Park",
+        "borough": "Queens",
+        "address": "164-15 Booth Memorial Ave, Flushing, NY 11365",
+        "maintenance_funding": "$156,890",
+        "private_funding": "$8,500",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.803245, 40.742143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Baisley Pond Park",
+        "borough": "Queens",
+        "address": "157th St & Baisley Blvd, Jamaica, NY 11434",
+        "maintenance_funding": "$98,450",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.789654, 40.684321]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Rockaway Beach Boardwalk",
+        "borough": "Queens",
+        "address": "Shore Front Pkwy, Queens, NY 11693",
+        "maintenance_funding": "$1,250,000",
+        "private_funding": "$450,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.814056, 40.585344]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Willowbrook Park",
+        "borough": "Staten Island",
+        "address": "Richmond Ave & Eton Pl, Staten Island, NY 10314",
+        "maintenance_funding": "$187,650",
+        "private_funding": "$25,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.149543, 40.603287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Freshkills Park",
+        "borough": "Staten Island",
+        "address": "350 Wild Ave, Staten Island, NY 10314",
+        "maintenance_funding": "$3,450,000",
+        "private_funding": "$1,250,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.185653, 40.577843]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Wolfes Pond Park",
+        "borough": "Staten Island",
+        "address": "420 Hylan Blvd, Staten Island, NY 10312",
+        "maintenance_funding": "$143,870",
+        "private_funding": "$0",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.201543, 40.522876]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Bloomfield Park",
+        "borough": "Staten Island",
+        "address": "Bloomfield Ave & Winant Pl, Staten Island, NY 10314",
+        "maintenance_funding": "$45,320",
+        "private_funding": "$0",
+        "volunteers": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.136754, 40.612987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Tappen Park",
+        "borough": "Staten Island",
+        "address": "Bay St & Canal St, Staten Island, NY 10304",
+        "maintenance_funding": "$87,650",
+        "private_funding": "$15,000",
+        "volunteers": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.078654, 40.627843]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "park": "Marine Park",
+        "borough": "Brooklyn",
+        "address": "Avenue U & East 33rd Street, Brooklyn, NY 11234",
+        "maintenance_funding": "$320,450",
+        "private_funding": "$85,000",
+        "volunteers": true,
+        "notes": "Salt marsh restoration heavily dependent on volunteers. Golf course generates revenue but doesn't fund general park maintenance.",
+        "acreage": 798,
+        "facilities": ["Salt Marsh Nature Center", "Golf Course", "Ball Fields"],
+        "funding_disparity": "High",
+        "last_capital_improvement": "2018 (Salt Marsh restoration)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.934197,40.60557925]
+      }
+    }
+  ]
+}
