@@ -6,8 +6,13 @@
   <title>Map – Planet Over Profit</title>
   <link href="style.css" rel="stylesheet" />
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <!-- Mapbox Geocoder CSS-->
+    <link
+    rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css"/>
+
 </head>
-<body>
+<body class="map-page">
   <header>
     <h1>Defunded Parks Map</h1>
     <nav>
@@ -20,7 +25,15 @@
 
   <main>
     <section id="map">
+      <div class="right-side"></div>
       <div id="map-container"></div>
+      <div id="geocoder-container"> <h1> Find a Park Near You: </h1></div>
+      <!-- volunteer info panel -->
+      <div id="volunteer-panel" class="hidden">
+        <h3 id="volunteer-park-name"></h3>
+        <p id="volunteer-park-funding"></p>
+        <p id="volunteer-park-link"></p>
+      </div>     
     </section>
   </main>
 
@@ -29,6 +42,7 @@
   </footer>
 
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
