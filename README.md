@@ -30,6 +30,17 @@ New York City's parks suffer from severe funding inequality:
 2. Add Mapbox token:
    ```bash
    echo "mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWFtZCIsImEiOiJjbWE3Z2R6bWoxMTRqMmpvb2w1bWFoc3JyIn0.MXbj8s15iXVTL05K61apyw'" > config.js
-
+3. Launch:
+   ```bash
+   python3 -m http.server 8000
+   
+## 📊 Data
+The data/nyc_parks.geojson file is a FeatureCollection of ~50 NYC parks.
+Each Feature has:
+- properties:
+- park, borough, maintenance_funding, private_funding, volunteers (Boolean)
+- geometry: Point with [lng, lat]
 
 "Public green spaces shouldn't depend on zip code wealth"
+
+
