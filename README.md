@@ -26,3 +26,10 @@ New York City's parks suffer from severe funding inequality:
 1. Clone repo:
    ```bash
    git clone https://github.com/FahmidaA0/national-parks.git
+   
+2. Add Mapbox token:
+   ```bash
+   echo "mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWFtZCIsImEiOiJjbWE3Z2R6bWoxMTRqMmpvb2w1bWFoc3JyIn0.MXbj8s15iXVTL05K61apyw'" > config.js
+
+
+"Public green spaces shouldn't depend on zip code wealth"
