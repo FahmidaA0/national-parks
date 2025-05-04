@@ -84,7 +84,7 @@ body {
     margin-top: 100px;
   }
   
-  .volunteer {
+  .volunteer1 {
    max-width: 30%;
    border-radius: 15%;
    border: 3px solid darkgreen;
@@ -96,7 +96,7 @@ body {
 
   .sam-story {
     display: inline-block;
-    /* margin-top: 1em; */
+    /* margin-bottom: 1em; */
     padding: 0.75em 1.5em;
     background-color: #1d3557;
     color: white;
@@ -108,4 +108,38 @@ body {
 
   .sam-story:hover{
     background-color: #457b9d;
+  }
+
+  .miles-story {
+    display: inline-block;
+    /* margin-bottom: 1em; */
+    padding: 0.75em 1.5em;
+    background-color: #1d3557;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .miles-story:hover{
+    background-color: #457b9d;
+  }
+
+  .div1{
+    margin-bottom: 30px;
+  }
+
+  .volunteer2{
+   max-width: 25%;
+   border-radius: 15%;
+   border: 3px solid darkgreen;
+   /* margin-top: 1em;
+   margin-bottom: 1em; */
+   float: left; 
+   margin-right: 15px;
+  }
+
+  .volunteerheader{
+    margin-bottom: 30px;
   }
