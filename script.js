@@ -36,7 +36,7 @@ map.on('load', () => {
         const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
           '<strong>' + feature.properties.park + '</strong><br>' +
           'Borough: ' + feature.properties.borough + '<br>' +
-          'Maintenance: $' + feature.properties.maintenance_funding.toLocaleString() + '<br>' +
+          'Maintenance: ' + feature.properties.maintenance_funding.toLocaleString() + '<br>' +
           'Volunteer Opportunities: ' + (feature.properties.volunteers ? 'Available' : 'Unavailable')
         );
 
