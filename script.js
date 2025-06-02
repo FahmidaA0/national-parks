@@ -59,7 +59,7 @@ map.on('load', () => {
 
           // Volunteer link
           if (feature.properties.volunteers) {
-            const url = 'https://www.nycgovparks.org/events/volunteer/';
+            const url = 'https://cityparksfoundation.org/volunteer/';
             document.getElementById('volunteer-park-link').innerHTML =
               '<a href="' + url + '" target="_blank">View volunteer opportunities</a>';
           } else {
