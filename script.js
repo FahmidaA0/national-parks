@@ -2,8 +2,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWFtZCIsImEiOiJjbWE3Z2R6bWoxMTRqMmpvb2w1b
 const map = new mapboxgl.Map({
   container: 'map-container',
   style: 'mapbox://styles/mariamd/cma985b4g008101qrbrm6a4pm?fresh=true',
-  center: [-73.9644, 40.76831], // Start map view at NY
-  zoom: 10.5
+  center: [-73.974187, 40.715148], // Start map view at NY
+  zoom: 9.0
 });
 
 // Create a Geocoder
@@ -44,7 +44,7 @@ map.on('load', () => {
         const marker = new mapboxgl.Marker({ color: 'green' })
           .setLngLat(feature.geometry.coordinates)
           .setPopup(popup)
-  .addTo(map);
+          .addTo(map);
 
         // 2c. When this marker is clicked, populate & show the volunteer panel
         marker.getElement().addEventListener('click', () => {
@@ -64,7 +64,7 @@ map.on('load', () => {
               '<a href="' + url + '" target="_blank">View volunteer opportunities</a>';
           } else {
             document.getElementById('volunteer-park-link').textContent =
-              'There are no volunteer programs available at the moment.';
+              'Volunteer opportunities are not available at the moment.';
           }
 
           // Show the panel

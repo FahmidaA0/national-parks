@@ -23,27 +23,32 @@ header {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-shadow: 10px 10px 4px rgba(0,0,0,0.3);
-  line-height: 1.2;
+}
+
+.hero h1 {
+  font-size: 2.4rem; /* Larger than your current 3.2rem */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 900; /* Extra bold */
+  text-transform: uppercase;
+  letter-spacing: -1px; /* Tight spacing */
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.2); /* More subtle shadow */
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: 1px;
-}
-
-.impact-btn {   /* Make a difference button styles */
-  padding: 1em 2em;       /* Increased from 0.75em 1.5em */
-  font-size: 1.3rem;      /* Larger text */
-  border-radius: 12px;    /* Slightly rounder corners */
 }
 
 nav a {
   margin: 0 100px;
   color: white;
   text-decoration: none;
-  font-size: 34px;
+  font-size: 30px;
+  
 }
 
 main {
@@ -51,7 +56,7 @@ main {
 }
 
 .logo {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -60,33 +65,41 @@ main {
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(12px);
   padding: 5em;
-  margin: 8em auto;
-  border-radius: 9px;
-  max-width: 1100px;
+  margin: 5em auto;
+  border-radius: 20px;
+  max-width: 1000px;
   text-align: center;
   color: white;
-}
+} 
 
 .impact-btn {
   display: inline-block;
   margin-top: 1em;
-  padding: 0.75em 1.5em;
-  background-color: #1d3557;
+  padding: 0.75em 1.5em;      /* final padding value */
+  font-size: 1.3rem;          /* from the first block */
+  background-color: #1d3557;  /* from the second block */
   color: white;
-  border-radius: 8px;
+  border-radius: 8px;         /* final border-radius */
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds subtle shadow */
 }
 
 .impact-btn:hover {
   background-color: #457b9d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.impact-btn:active {
+  transform: translateY(0); /* Push down effect when clicked */
 }
 
 #map-container {
   background-color: white;
-  width: 50%;
-  height: 700px;
+  width: 60%;
+  height: 500px;
   margin-top: 50px;
   border: 2px solid #ccc;
   border-radius: 20px;
@@ -95,25 +108,28 @@ main {
 
 #geocoder-container {
   position: absolute;
-  top: 380px;
-  right: 350px;
+  top: 300px;
+  right: 200px;
   width: 300px;
-  height: 30em;
   color: whitesmoke;
   font-size: 18px;
   font-family: Impact, Haettenschweiler, sans-serif;
   letter-spacing: 1px;
 }
 
+#geocoder-container h2{
+  font-size: 25px;
+}
+
 #geocoder-container .mapboxgl-ctrl-geocoder {
-  width: 20000%;
+  width: 200000%;
 }
 
 #volunteer-panel {
   position: absolute;
-  top: 600px;
-  right: 250px;
-  width: 400px;
+  top: 470px;
+  right: 100px;
+  width: 380px;
   padding: 1em;
   height: 200px;
   background: rgba(255, 255, 255, 0.9);
@@ -312,7 +328,7 @@ footer {
   color: white;
   text-align: center;
   padding: 1px;
-  margin-top: 22px;
+  margin-top: 10px;
 }
 
 .marker {
