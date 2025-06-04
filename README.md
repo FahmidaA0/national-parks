@@ -26,14 +26,22 @@ New York City's parks suffer from severe funding inequality:
 1. Clone repo:
    ```bash
    git clone https://github.com/FahmidaA0/national-parks.git
+   cd national-parks
    
 2. Add Mapbox token:
    ```bash
    echo "mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWFtZCIsImEiOiJjbWE3Z2R6bWoxMTRqMmpvb2w1bWFoc3JyIn0.MXbj8s15iXVTL05K61apyw'" > config.js
-3. Launch:
+3. Run a local server:
    ```bash
-   python3 -m http.server 8000
-   
+   * VS Code Live Server (recommended)
+     1. Open this folder in VS Code.
+     2. Right-click index.html → “Open with Live Server.”
+   * Node.js “serve” CLI (alternative)
+
+## 🌐 Live Demo
+This site is deployed on Netlify:
+https://planet-over-profit.netlify.app
+
 ## 📊 Data
 The data/nyc_parks.geojson file is a FeatureCollection of ~50 NYC parks.
 Each Feature has:
