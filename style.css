@@ -10,7 +10,6 @@ body.home-page {
   display: flex;
   flex-direction: column;
 }
-
 body.map-page {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -222,12 +221,12 @@ main {
 }
 
 .problem-card h2 {
-  color: #1d3557;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 3px solid #2ecc71;
-  padding-bottom: 0.5rem;
-  display: inline-block;
+  color: #1d3557; 
+  font-size: 2rem; 
+  margin-bottom: 1.5rem; 
+  border-bottom: 3px solid #2ecc71; 
+  padding-bottom: 0.5rem; 
+  display: inline-block; 
 }
 
 .problem-grid {
