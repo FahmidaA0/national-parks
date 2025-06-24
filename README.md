@@ -39,8 +39,7 @@ New York City's parks suffer from severe funding inequality:
    * Node.js “serve” CLI (alternative)
 
 ## 🌐 Live Demo
-This site is deployed on Netlify:
-[https://planet-over-profit.netlify.app](https://planet-over-profit.vercel.app/)
+This site is deployed on Netlify: https://planet-over-profit.vercel.app
 
 ## 📊 Data
 The data/nyc_parks.geojson file is a FeatureCollection of ~50 NYC parks.
